@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivere Global</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom, .services-section, body  {
+          background-color: #ffffff ; 
+        }
+
+        .custom-image {
+            max-width: 200px; 
+            border-radius: 90%; 
+        }
+
+       
+        #offeringsContent .col-lg-7 {
+            padding: 0 30px; 
+        }
+      </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+  <a class="navbar-brand" href="#">    
+    <img src="asset/Screenshot_transparent.png" alt="Your Brand Logo" height="50"> 
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="jumbotron text-center">
+    <h1 class="jumbotron-heading">Welcome to Vivere Global!</h1>
+    <p class="lead text-decoration">Safeguarding Your Digital Ecosystem with Next-Generation Identity Authentication and Access Management.</p>
+    <p>
+        <a href="#" class="btn btn-primary my-2">Our Team</a>
+        <a href="#" class="btn btn-secondary my-2">Our Misson</a>
+    </p>
+</section>
+
+<!-- Services Section -->
+<section class="container my-4">
+    <h2>Offerings</h2>
+    <ul class="nav nav-tabs justify-content-center" id="offeringsTabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="integration-tab" data-toggle="tab" href="#integration" role="tab" aria-controls="integration" aria-selected="true">Integration</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" id="service2-tab" data-toggle="tab" href="#service2" role="tab" aria-controls="service2" aria-selected="false">Assesment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="service3-tab" data-toggle="tab" href="#service3" role="tab" aria-controls="service3" aria-selected="false"> End-to-End Solution</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="offeringsContent">
+        <div class="tab-pane fade show active" id="integration" role="tabpanel" aria-labelledby="integration-tab">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mx-auto text-center">
+                    <p>At Vivere Global, we offer integration services for SailPoint's IdentityNow and IdentityIQ products...</p>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="asset/intergration1.jpg" alt="Integration Image" class="img-fluid rounded-circle custom-image">
+                </div>
+            </div>
+        </div>
+      <div class="tab-pane fade" id="service2" role="tabpanel" aria-labelledby="service2-tab">
+        <p>Content for service 2.</p>
+      </div>
+      <div class="tab-pane fade" id="service3" role="tabpanel" aria-labelledby="service3-tab">
+        <p>Content for service 3.</p>
+      </div>
+    </div>
+
+    <h2>Partners</h2>
+    <div class="row text-center">
+        <div class="col">
+            <img src="asset/1-SailPoint.webp" alt="Partner 1 Logo" class="img-fluid">
+        </div>
+       
+        <div class="col">
+            <img src="asset/2-okta.webp" alt="Partner 2 Logo" class="img-fluid">
+        </div>
+        
+        <div class="col">
+            <img src="asset/3-Delinea.webp" alt="Partner 3 Logo" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="asset/4-SalesForce.webp" alt="Partner 4 Logo" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="asset/5-Cyberark.webp" alt="Partner 5 Logo" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="asset/6-OneIdentity.webp" alt="Partner 6 Logo" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="asset/15-BeyondTrust.webp" alt="Partner 7 Logo" class="img-fluid">
+        </div>
+        
+    </div>
+
+  </section>
+
+<!-- About Us Section -->
+<section class="container">
+  <h2>About Us</h2>
+  <p>Description about the company.</p>
+</section>
+
+
+<!-- Contact Form -->
+<section class="container">
+  <h2>Contact Us</h2>
+  <!-- Contact form could be added here -->
+</section>
+
+<!-- Footer -->
+<footer class="text-muted text-center py-3">
+  <div class="container">
+    <p>Copyright &copy; Vivere Global</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
